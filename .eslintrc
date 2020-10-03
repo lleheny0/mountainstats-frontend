@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true,
+    "jquery": true,
+    "es6": true
+  },
+  "globals": {
+    "_": true,
+    "F": true,
+    "React": true,
+    "Component": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "camelcase": 2,
+    "no-console": 2,
+    "no-useless-constructor": 2
+  }
+}
