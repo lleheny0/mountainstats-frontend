@@ -20,6 +20,13 @@
   "rules": {
     "camelcase": 2,
     "no-console": 2,
-    "no-useless-constructor": 2
-  }
+    "no-useless-constructor": 2,
+    "no-unused-vars": [
+      2,
+      { "argsIgnorePattern": "^_.+", "varsIgnorePattern": "^_.+" }
+    ],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "plugins": ["react"]
 }
