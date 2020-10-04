@@ -25,8 +25,18 @@
       2,
       { "argsIgnorePattern": "^_.+", "varsIgnorePattern": "^_.+" }
     ],
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "prettier/prettier": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/jsx-curly-brace-presence": [2, "never"],
+    "react/jsx-no-undef": [2, { "allowGlobals": true }],
+    "react/no-children-prop": 2,
+    "react/no-unescaped-entities": [2, { "forbid": [">", "\"", "}"] }],
+    "react/no-unused-state": 2,
+    "react/prop-types": 2,
+    "react/no-unused-prop-types": 2,
+    "react/prefer-stateless-function": 1
   },
-  "plugins": ["react"]
+  "plugins": ["react", "prettier"],
+  "extends": ["eslint:recommended"]
 }
