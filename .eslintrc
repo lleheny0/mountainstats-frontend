@@ -6,12 +6,6 @@
     "jquery": true,
     "es6": true
   },
-  "globals": {
-    "_": true,
-    "F": true,
-    "React": true,
-    "Component": true
-  },
   "settings": {
     "react": {
       "version": "detect"

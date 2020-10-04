@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.3",
+    "lodash": "^4.17.20",
     "prettier-eslint": "^11.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",

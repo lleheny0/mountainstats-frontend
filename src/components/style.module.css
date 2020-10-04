@@ -1,0 +1,40 @@
+.mountain {
+  margin: 5px;
+}
+
+.mountainName {
+  font-size: 32px;
+  color: #888;
+}
+
+.run {
+  display: table-row;
+}
+
+.runName,
+.runType,
+.runIsOpen,
+.runIsClosed {
+  display: table-cell;
+  padding: 5px;
+}
+
+.runName {
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.runType {
+  margin: 5px;
+}
+
+.runIsOpen {
+  margin: 5px;
+  color: green;
+}
+
+.runIsClosed {
+  margin: 5px;
+  color: red;
+}
