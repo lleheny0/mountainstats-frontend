@@ -1,8 +1,29 @@
-.date {
-  font-size: 24px;
+.resortHeader {
+  margin: 10px;
 }
 
-.mountainContainer {
+.resortName {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.date {
+  font-size: 16px;
+  color: #888;
+}
+
+.runsContainer {
   display: table;
   margin: 5px;
+}
+
+.runsHeader {
+  display: table-row;
+}
+
+.runsHeader > div {
+  padding-left: 5px;
+  display: table-cell;
+  color: #888;
 }

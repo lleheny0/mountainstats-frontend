@@ -1,0 +1,49 @@
+{
+  "stowe": {
+    "name": "Stowe",
+    "date": "39472039847",
+    "mountains": [
+      {
+        "name": "Example Mountain Name",
+        "runs": [
+          {
+            "name": "Birch Glades",
+            "type": 1,
+            "isOpen": false,
+            "trailInfo": ""
+          }
+        ],
+        "lifts": [
+          {
+            "name": "Gondola",
+            "status": 0,
+            "type": "Gondola"
+          }
+        ]
+      }
+    ]
+  },
+  "vail": {
+    "name": "vail",
+    "date": 1584285264000,
+    "mountains": [
+      {
+        "name": "Example Mountain Name",
+        "runs": [
+          {
+            "name": "Blue Ox",
+            "type": 3,
+            "open": false
+          }
+        ],
+        "lifts": [
+          {
+            "open": false,
+            "name": "Avanti Express Lift #2",
+            "type": "Six Passenger"
+          }
+        ]
+      }
+    ]
+  }
+}

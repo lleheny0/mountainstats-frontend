@@ -2,16 +2,12 @@
   margin: 5px;
 }
 
-.mountainName {
-  font-size: 32px;
-  color: #888;
-}
-
 .run {
   display: table-row;
 }
 
 .runName,
+.resortName,
 .runType,
 .runIsOpen,
 .runIsClosed {
